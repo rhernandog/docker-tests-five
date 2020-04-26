@@ -1,0 +1,11 @@
+version: "3"
+services: 
+  # Redis server
+  redis-server:
+    image: "redis"
+  # Node & Express server
+  node-app:
+    restart: always
+    build: .
+    ports:
+      - "8000:8000"

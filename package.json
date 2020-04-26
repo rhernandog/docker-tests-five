@@ -1,0 +1,21 @@
+{
+  "name": "sectoin-5-visit-count-app",
+  "version": "1.0.0",
+  "description": "Simple Node and Express using Redis to count visits",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "redis": "3.0.2"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "redis",
+    "docker"
+  ],
+  "author": "Rodrigo Hernando",
+  "license": "MIT"
+}
